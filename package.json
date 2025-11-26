@@ -1,0 +1,53 @@
+{
+  "name": "three-line2d-geometry",
+  "version": "1.0.0",
+  "description": "Creates a 2D line geometry with width from a path shape for Three.js",
+  "type": "module",
+  "main": "./dist/three-line2d-geometry.umd.cjs",
+  "module": "./dist/three-line2d-geometry.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/three-line2d-geometry.js",
+      "require": "./dist/three-line2d-geometry.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "three",
+    "threejs",
+    "three.js",
+    "line",
+    "2d",
+    "geometry",
+    "webgl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a876691666/THREE.Line2DGeometry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a876691666/THREE.Line2DGeometry/issues"
+  },
+  "homepage": "https://github.com/a876691666/THREE.Line2DGeometry#readme",
+  "peerDependencies": {
+    "three": ">=0.150.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.181.0",
+    "three": "^0.181.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}

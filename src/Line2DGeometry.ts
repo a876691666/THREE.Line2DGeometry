@@ -21,13 +21,13 @@ const { BufferGeometry, Vector2, Float32BufferAttribute } = THREE;
 
 export const clock = new THREE.Clock();
 
-interface Line2DGeometryOptions {
+export interface Line2DGeometryOptions {
   width: number;
   uvSpread: boolean;
   UVGenerator?: UVGenerator;
 }
 
-interface UVGenerator {
+export interface UVGenerator {
   f3UV(
     geometry: Line2DGeometry,
     startPosition: number,
